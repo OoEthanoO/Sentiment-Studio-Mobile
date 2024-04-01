@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		810A50802BBAF38D006E6AE0 /* Sentiment_Studio_MobileApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810A507F2BBAF38D006E6AE0 /* Sentiment_Studio_MobileApp.swift */; };
+		810A50822BBAF38D006E6AE0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810A50812BBAF38D006E6AE0 /* ContentView.swift */; };
+		810A50842BBAF38D006E6AE0 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810A50832BBAF38D006E6AE0 /* Item.swift */; };
+		810A50862BBAF38E006E6AE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 810A50852BBAF38E006E6AE0 /* Assets.xcassets */; };
+		810A50892BBAF38E006E6AE0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 810A50882BBAF38E006E6AE0 /* Preview Assets.xcassets */; };
+		810A50932BBAF38E006E6AE0 /* Sentiment_Studio_MobileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810A50922BBAF38E006E6AE0 /* Sentiment_Studio_MobileTests.swift */; };
+		810A509D2BBAF38E006E6AE0 /* Sentiment_Studio_MobileUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810A509C2BBAF38E006E6AE0 /* Sentiment_Studio_MobileUITests.swift */; };
+		810A509F2BBAF38E006E6AE0 /* Sentiment_Studio_MobileUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810A509E2BBAF38E006E6AE0 /* Sentiment_Studio_MobileUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		810A508F2BBAF38E006E6AE0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 810A50742BBAF38D006E6AE0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 810A507B2BBAF38D006E6AE0;
+			remoteInfo = "Sentiment Studio Mobile";
+		};
+		810A50992BBAF38E006E6AE0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 810A50742BBAF38D006E6AE0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 810A507B2BBAF38D006E6AE0;
+			remoteInfo = "Sentiment Studio Mobile";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		810A507C2BBAF38D006E6AE0 /* Sentiment Studio Mobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sentiment Studio Mobile.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		810A507F2BBAF38D006E6AE0 /* Sentiment_Studio_MobileApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sentiment_Studio_MobileApp.swift; sourceTree = "<group>"; };
+		810A50812BBAF38D006E6AE0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		810A50832BBAF38D006E6AE0 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		810A50852BBAF38E006E6AE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		810A50882BBAF38E006E6AE0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		810A508E2BBAF38E006E6AE0 /* Sentiment Studio MobileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sentiment Studio MobileTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		810A50922BBAF38E006E6AE0 /* Sentiment_Studio_MobileTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sentiment_Studio_MobileTests.swift; sourceTree = "<group>"; };
+		810A50982BBAF38E006E6AE0 /* Sentiment Studio MobileUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sentiment Studio MobileUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		810A509C2BBAF38E006E6AE0 /* Sentiment_Studio_MobileUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sentiment_Studio_MobileUITests.swift; sourceTree = "<group>"; };
+		810A509E2BBAF38E006E6AE0 /* Sentiment_Studio_MobileUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sentiment_Studio_MobileUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		810A50792BBAF38D006E6AE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		810A508B2BBAF38E006E6AE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		810A50952BBAF38E006E6AE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		810A50732BBAF38D006E6AE0 = {
+			isa = PBXGroup;
+			children = (
+				810A507E2BBAF38D006E6AE0 /* Sentiment Studio Mobile */,
+				810A50912BBAF38E006E6AE0 /* Sentiment Studio MobileTests */,
+				810A509B2BBAF38E006E6AE0 /* Sentiment Studio MobileUITests */,
+				810A507D2BBAF38D006E6AE0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		810A507D2BBAF38D006E6AE0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				810A507C2BBAF38D006E6AE0 /* Sentiment Studio Mobile.app */,
+				810A508E2BBAF38E006E6AE0 /* Sentiment Studio MobileTests.xctest */,
+				810A50982BBAF38E006E6AE0 /* Sentiment Studio MobileUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		810A507E2BBAF38D006E6AE0 /* Sentiment Studio Mobile */ = {
+			isa = PBXGroup;
+			children = (
+				810A507F2BBAF38D006E6AE0 /* Sentiment_Studio_MobileApp.swift */,
+				810A50812BBAF38D006E6AE0 /* ContentView.swift */,
+				810A50832BBAF38D006E6AE0 /* Item.swift */,
+				810A50852BBAF38E006E6AE0 /* Assets.xcassets */,
+				810A50872BBAF38E006E6AE0 /* Preview Content */,
+			);
+			path = "Sentiment Studio Mobile";
+			sourceTree = "<group>";
+		};
+		810A50872BBAF38E006E6AE0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				810A50882BBAF38E006E6AE0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		810A50912BBAF38E006E6AE0 /* Sentiment Studio MobileTests */ = {
+			isa = PBXGroup;
+			children = (
+				810A50922BBAF38E006E6AE0 /* Sentiment_Studio_MobileTests.swift */,
+			);
+			path = "Sentiment Studio MobileTests";
+			sourceTree = "<group>";
+		};
+		810A509B2BBAF38E006E6AE0 /* Sentiment Studio MobileUITests */ = {
+			isa = PBXGroup;
+			children = (
+				810A509C2BBAF38E006E6AE0 /* Sentiment_Studio_MobileUITests.swift */,
+				810A509E2BBAF38E006E6AE0 /* Sentiment_Studio_MobileUITestsLaunchTests.swift */,
+			);
+			path = "Sentiment Studio MobileUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		810A507B2BBAF38D006E6AE0 /* Sentiment Studio Mobile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 810A50A22BBAF38E006E6AE0 /* Build configuration list for PBXNativeTarget "Sentiment Studio Mobile" */;
+			buildPhases = (
+				810A50782BBAF38D006E6AE0 /* Sources */,
+				810A50792BBAF38D006E6AE0 /* Frameworks */,
+				810A507A2BBAF38D006E6AE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sentiment Studio Mobile";
+			productName = "Sentiment Studio Mobile";
+			productReference = 810A507C2BBAF38D006E6AE0 /* Sentiment Studio Mobile.app */;
+			productType = "com.apple.product-type.application";
+		};
+		810A508D2BBAF38E006E6AE0 /* Sentiment Studio MobileTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 810A50A52BBAF38E006E6AE0 /* Build configuration list for PBXNativeTarget "Sentiment Studio MobileTests" */;
+			buildPhases = (
+				810A508A2BBAF38E006E6AE0 /* Sources */,
+				810A508B2BBAF38E006E6AE0 /* Frameworks */,
+				810A508C2BBAF38E006E6AE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				810A50902BBAF38E006E6AE0 /* PBXTargetDependency */,
+			);
+			name = "Sentiment Studio MobileTests";
+			productName = "Sentiment Studio MobileTests";
+			productReference = 810A508E2BBAF38E006E6AE0 /* Sentiment Studio MobileTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		810A50972BBAF38E006E6AE0 /* Sentiment Studio MobileUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 810A50A82BBAF38E006E6AE0 /* Build configuration list for PBXNativeTarget "Sentiment Studio MobileUITests" */;
+			buildPhases = (
+				810A50942BBAF38E006E6AE0 /* Sources */,
+				810A50952BBAF38E006E6AE0 /* Frameworks */,
+				810A50962BBAF38E006E6AE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				810A509A2BBAF38E006E6AE0 /* PBXTargetDependency */,
+			);
+			name = "Sentiment Studio MobileUITests";
+			productName = "Sentiment Studio MobileUITests";
+			productReference = 810A50982BBAF38E006E6AE0 /* Sentiment Studio MobileUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		810A50742BBAF38D006E6AE0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					810A507B2BBAF38D006E6AE0 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					810A508D2BBAF38E006E6AE0 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 810A507B2BBAF38D006E6AE0;
+					};
+					810A50972BBAF38E006E6AE0 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 810A507B2BBAF38D006E6AE0;
+					};
+				};
+			};
+			buildConfigurationList = 810A50772BBAF38D006E6AE0 /* Build configuration list for PBXProject "Sentiment Studio Mobile" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 810A50732BBAF38D006E6AE0;
+			productRefGroup = 810A507D2BBAF38D006E6AE0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				810A507B2BBAF38D006E6AE0 /* Sentiment Studio Mobile */,
+				810A508D2BBAF38E006E6AE0 /* Sentiment Studio MobileTests */,
+				810A50972BBAF38E006E6AE0 /* Sentiment Studio MobileUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		810A507A2BBAF38D006E6AE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				810A50892BBAF38E006E6AE0 /* Preview Assets.xcassets in Resources */,
+				810A50862BBAF38E006E6AE0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		810A508C2BBAF38E006E6AE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		810A50962BBAF38E006E6AE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		810A50782BBAF38D006E6AE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				810A50822BBAF38D006E6AE0 /* ContentView.swift in Sources */,
+				810A50842BBAF38D006E6AE0 /* Item.swift in Sources */,
+				810A50802BBAF38D006E6AE0 /* Sentiment_Studio_MobileApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		810A508A2BBAF38E006E6AE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				810A50932BBAF38E006E6AE0 /* Sentiment_Studio_MobileTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		810A50942BBAF38E006E6AE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				810A509F2BBAF38E006E6AE0 /* Sentiment_Studio_MobileUITestsLaunchTests.swift in Sources */,
+				810A509D2BBAF38E006E6AE0 /* Sentiment_Studio_MobileUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		810A50902BBAF38E006E6AE0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 810A507B2BBAF38D006E6AE0 /* Sentiment Studio Mobile */;
+			targetProxy = 810A508F2BBAF38E006E6AE0 /* PBXContainerItemProxy */;
+		};
+		810A509A2BBAF38E006E6AE0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 810A507B2BBAF38D006E6AE0 /* Sentiment Studio Mobile */;
+			targetProxy = 810A50992BBAF38E006E6AE0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		810A50A02BBAF38E006E6AE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		810A50A12BBAF38E006E6AE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		810A50A32BBAF38E006E6AE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Sentiment Studio Mobile/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ethanyanxu.Sentiment-Studio-Mobile";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		810A50A42BBAF38E006E6AE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Sentiment Studio Mobile/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ethanyanxu.Sentiment-Studio-Mobile";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		810A50A62BBAF38E006E6AE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ethanyanxu.Sentiment-Studio-MobileTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sentiment Studio Mobile.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Sentiment Studio Mobile";
+			};
+			name = Debug;
+		};
+		810A50A72BBAF38E006E6AE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ethanyanxu.Sentiment-Studio-MobileTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sentiment Studio Mobile.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Sentiment Studio Mobile";
+			};
+			name = Release;
+		};
+		810A50A92BBAF38E006E6AE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ethanyanxu.Sentiment-Studio-MobileUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Sentiment Studio Mobile";
+			};
+			name = Debug;
+		};
+		810A50AA2BBAF38E006E6AE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ethanyanxu.Sentiment-Studio-MobileUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Sentiment Studio Mobile";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		810A50772BBAF38D006E6AE0 /* Build configuration list for PBXProject "Sentiment Studio Mobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				810A50A02BBAF38E006E6AE0 /* Debug */,
+				810A50A12BBAF38E006E6AE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		810A50A22BBAF38E006E6AE0 /* Build configuration list for PBXNativeTarget "Sentiment Studio Mobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				810A50A32BBAF38E006E6AE0 /* Debug */,
+				810A50A42BBAF38E006E6AE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		810A50A52BBAF38E006E6AE0 /* Build configuration list for PBXNativeTarget "Sentiment Studio MobileTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				810A50A62BBAF38E006E6AE0 /* Debug */,
+				810A50A72BBAF38E006E6AE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		810A50A82BBAF38E006E6AE0 /* Build configuration list for PBXNativeTarget "Sentiment Studio MobileUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				810A50A92BBAF38E006E6AE0 /* Debug */,
+				810A50AA2BBAF38E006E6AE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 810A50742BBAF38D006E6AE0 /* Project object */;
+}
