@@ -9,12 +9,17 @@
 /* Begin PBXBuildFile section */
 		810A50802BBAF38D006E6AE0 /* Sentiment_Studio_MobileApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810A507F2BBAF38D006E6AE0 /* Sentiment_Studio_MobileApp.swift */; };
 		810A50822BBAF38D006E6AE0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810A50812BBAF38D006E6AE0 /* ContentView.swift */; };
-		810A50842BBAF38D006E6AE0 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810A50832BBAF38D006E6AE0 /* Item.swift */; };
 		810A50862BBAF38E006E6AE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 810A50852BBAF38E006E6AE0 /* Assets.xcassets */; };
 		810A50892BBAF38E006E6AE0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 810A50882BBAF38E006E6AE0 /* Preview Assets.xcassets */; };
 		810A50932BBAF38E006E6AE0 /* Sentiment_Studio_MobileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810A50922BBAF38E006E6AE0 /* Sentiment_Studio_MobileTests.swift */; };
 		810A509D2BBAF38E006E6AE0 /* Sentiment_Studio_MobileUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810A509C2BBAF38E006E6AE0 /* Sentiment_Studio_MobileUITests.swift */; };
 		810A509F2BBAF38E006E6AE0 /* Sentiment_Studio_MobileUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810A509E2BBAF38E006E6AE0 /* Sentiment_Studio_MobileUITestsLaunchTests.swift */; };
+		810A50AC2BBAF537006E6AE0 /* LSTMView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810A50AB2BBAF537006E6AE0 /* LSTMView.swift */; };
+		810A50B02BBAF9FB006E6AE0 /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810A50AF2BBAF9FB006E6AE0 /* AlertView.swift */; };
+		817ACDA32BCAB8D800FADD6E /* EmotiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817ACDA22BCAB8D800FADD6E /* EmotiView.swift */; };
+		817ACDA52BCAB92700FADD6E /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817ACDA42BCAB92700FADD6E /* TitleView.swift */; };
+		81D26F092BCACCA1000F833D /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D26F082BCACCA1000F833D /* CameraView.swift */; };
+		81D26F0B2BCACCD0000F833D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D26F0A2BCACCD0000F833D /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +43,6 @@
 		810A507C2BBAF38D006E6AE0 /* Sentiment Studio Mobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sentiment Studio Mobile.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		810A507F2BBAF38D006E6AE0 /* Sentiment_Studio_MobileApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sentiment_Studio_MobileApp.swift; sourceTree = "<group>"; };
 		810A50812BBAF38D006E6AE0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		810A50832BBAF38D006E6AE0 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		810A50852BBAF38E006E6AE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		810A50882BBAF38E006E6AE0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		810A508E2BBAF38E006E6AE0 /* Sentiment Studio MobileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sentiment Studio MobileTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -46,6 +50,12 @@
 		810A50982BBAF38E006E6AE0 /* Sentiment Studio MobileUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sentiment Studio MobileUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		810A509C2BBAF38E006E6AE0 /* Sentiment_Studio_MobileUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sentiment_Studio_MobileUITests.swift; sourceTree = "<group>"; };
 		810A509E2BBAF38E006E6AE0 /* Sentiment_Studio_MobileUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sentiment_Studio_MobileUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		810A50AB2BBAF537006E6AE0 /* LSTMView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSTMView.swift; sourceTree = "<group>"; };
+		810A50AF2BBAF9FB006E6AE0 /* AlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
+		817ACDA22BCAB8D800FADD6E /* EmotiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmotiView.swift; sourceTree = "<group>"; };
+		817ACDA42BCAB92700FADD6E /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
+		81D26F082BCACCA1000F833D /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		81D26F0A2BCACCD0000F833D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,9 +108,14 @@
 			children = (
 				810A507F2BBAF38D006E6AE0 /* Sentiment_Studio_MobileApp.swift */,
 				810A50812BBAF38D006E6AE0 /* ContentView.swift */,
-				810A50832BBAF38D006E6AE0 /* Item.swift */,
 				810A50852BBAF38E006E6AE0 /* Assets.xcassets */,
 				810A50872BBAF38E006E6AE0 /* Preview Content */,
+				810A50AB2BBAF537006E6AE0 /* LSTMView.swift */,
+				810A50AF2BBAF9FB006E6AE0 /* AlertView.swift */,
+				817ACDA22BCAB8D800FADD6E /* EmotiView.swift */,
+				817ACDA42BCAB92700FADD6E /* TitleView.swift */,
+				81D26F082BCACCA1000F833D /* CameraView.swift */,
+				81D26F0A2BCACCD0000F833D /* ViewController.swift */,
 			);
 			path = "Sentiment Studio Mobile";
 			sourceTree = "<group>";
@@ -260,9 +275,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				817ACDA32BCAB8D800FADD6E /* EmotiView.swift in Sources */,
+				81D26F092BCACCA1000F833D /* CameraView.swift in Sources */,
+				810A50B02BBAF9FB006E6AE0 /* AlertView.swift in Sources */,
+				810A50AC2BBAF537006E6AE0 /* LSTMView.swift in Sources */,
 				810A50822BBAF38D006E6AE0 /* ContentView.swift in Sources */,
-				810A50842BBAF38D006E6AE0 /* Item.swift in Sources */,
 				810A50802BBAF38D006E6AE0 /* Sentiment_Studio_MobileApp.swift in Sources */,
+				81D26F0B2BCACCD0000F833D /* ViewController.swift in Sources */,
+				817ACDA52BCAB92700FADD6E /* TitleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,10 +444,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 200;
 				DEVELOPMENT_ASSET_PATHS = "\"Sentiment Studio Mobile/Preview Content\"";
+				DEVELOPMENT_TEAM = J679C73527;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Need camera permission";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -437,7 +459,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "ethanyanxu.Sentiment-Studio-Mobile";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -452,10 +474,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 200;
 				DEVELOPMENT_ASSET_PATHS = "\"Sentiment Studio Mobile/Preview Content\"";
+				DEVELOPMENT_TEAM = J679C73527;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Need camera permission";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -465,7 +489,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "ethanyanxu.Sentiment-Studio-Mobile";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -480,7 +504,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 200;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
 				MARKETING_VERSION = 1.0;
@@ -499,7 +523,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 200;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
 				MARKETING_VERSION = 1.0;
@@ -517,7 +541,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 200;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "ethanyanxu.Sentiment-Studio-MobileUITests";
@@ -534,7 +558,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 200;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "ethanyanxu.Sentiment-Studio-MobileUITests";

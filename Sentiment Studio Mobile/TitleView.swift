@@ -8,11 +8,15 @@
 import SwiftUI
 
 struct TitleView: View {
+    var text: String
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Text(text)
+            .font(.title)
+            .padding(.top, 50)
+            .bold()
     }
 }
 
 #Preview {
-    TitleView()
+    TitleView(text: "Sample Text")
 }

@@ -8,11 +8,21 @@
 import SwiftUI
 
 struct AlertView: View {
+    var text: String
+    var color: Color
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack(alignment: .topLeading) {
+            RoundedRectangle(cornerSize: CGSize(width: 10, height: 10))
+                .fill(color.opacity(0.2))
+                .frame(height: 50)
+            
+            Text(text)
+                .padding(15)
+        }
+        .padding([.leading, .trailing], 30)
     }
 }
 
 #Preview {
-    AlertView()
+    AlertView(text: "Sample Text", color: Color.accentColor)
 }
